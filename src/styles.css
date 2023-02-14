@@ -28,15 +28,16 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 
 .example-icon{
     padding: 0 14px;
+    font-size: 24px;
 }
  .mat-drawer{
-background-color:#D32F2F;
+background-color:#676873;
+color: #fff;
 }
-.mat-sidenav a:hover{
-    color: white;
-}
+
 .bar{
-    background-color: #D32F2F;
+    background-color: #676873;
+    color: #fff;
 
 }
 .mat-elevation-z5{
@@ -47,7 +48,3 @@ z-index: 2;
 flex: 1 1 auto;
 }
 
-
-.mat-sidenav a:hover{
-    color: white;
-}

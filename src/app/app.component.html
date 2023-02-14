@@ -1,6 +1,7 @@
 <mat-toolbar class="bar mat-elevation-z5">
   <span>My App</span>
   <span class="example-spacer"></span>
+
   <button
     mat-icon-button
     class="example-icon favorite-icon"
@@ -17,14 +18,18 @@
   </button>
 </mat-toolbar>
 
+
+<!-- <h1 class="heading">Angular</h1> -->
+
+
 <mat-sidenav-container>
   <mat-sidenav mode="side" opened>
     <mat-nav-list style="width: 200px;">
-      <a mat-list-item routerLink="dashboard" style="padding: 40px; "><mat-icon >dashboard</mat-icon>Dashboard</a>
+      <a mat-list-item  routerLink="dashboard" style="padding: 40px; "><mat-icon >dashboard</mat-icon>Dashboard</a>
       <a mat-list-item routerLink="profile" style="padding: 40px; "><mat-icon>account_circle</mat-icon>Profile</a>
-<a mat-list-item style="padding: 40px;"> <mat-icon>explore</mat-icon>Explore</a>
-      <a mat-list-item style="padding: 40px;"><mat-icon>favorite_border</mat-icon> Favorite</a>
-      <a mat-list-item style="padding: 40px;"><mat-icon>help</mat-icon> Help</a>
+<a mat-list-item  routerLink="explore" style="padding: 40px;"> <mat-icon>explore</mat-icon>Explore</a>
+      <a mat-list-item routerLink="favorite" style="padding: 40px;"><mat-icon>favorite_border</mat-icon> Favorite</a>
+      <a mat-list-item [routerLink]="['/contact']" routerLinkActive="router-link-active"  style="padding: 40px;"><mat-icon>help</mat-icon> Help</a>
     </mat-nav-list>
   </mat-sidenav>
   <mat-sidenav-content>

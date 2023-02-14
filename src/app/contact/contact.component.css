@@ -1,0 +1,51 @@
+
+mat-card{
+    margin: 10px;
+    padding: 10px;
+
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+    width:fit-content;
+    margin:0 auto;
+    border-radius: 4px;
+}
+
+.card-1{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border:1px solid #fff;
+    width: 900px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+
+}
+p{
+    font-size: 13px;
+    color: #6b5d5d;
+}
+.card-2{
+    /* margin: 10px; */
+    padding: 10px;
+    border-radius: 5px;
+    border:1px solid #fff;
+    background-color: rgb(20, 184, 238);
+    color: #fff;
+    text-align: center;
+    padding: 20px 50px;
+
+
+}
+.card-2 p{
+    font-size: 13px;
+
+}
+.card-2 span{
+text-decoration: underline;
+font-size: 13px;
+}

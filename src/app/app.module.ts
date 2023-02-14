@@ -15,19 +15,31 @@ import {MatIconModule} from '@angular/material/icon';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatSidenavModule} from '@angular/material/sidenav';
 import {MatListModule} from '@angular/material/list';
+import { ExploreComponent } from './explore/explore.component';
+import { FavoriteComponent } from './favorite/favorite.component';
+import { ContactComponent } from './contact/contact.component';
+
 
 
 
 
 const routes:Routes = [
 {path:'dashboard',component:DashboardComponent},
-{path:'profile' , component:ProfileComponent}
+{path:'profile' , component:ProfileComponent},
+{path:'explore' , component:ExploreComponent},
+{path:'favorite' , component:FavoriteComponent},
+{path:'contact',component:ContactComponent}
+
 ];
 @NgModule({
   declarations: [
     AppComponent,
     DashboardComponent,
-    ProfileComponent
+    ProfileComponent,
+    ExploreComponent,
+    FavoriteComponent,
+    ContactComponent,
+
   ],
   imports: [
     BrowserModule,

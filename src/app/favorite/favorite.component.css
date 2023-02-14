@@ -1,0 +1,21 @@
+
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+ gap:20px;
+flex-flow: wrap;
+}
+
+
+.card:hover{
+    transform: scale(1.05);
+    transition: 0.5s;
+
+}
+.card{
+  width: 300px;
+}

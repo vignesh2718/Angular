@@ -1,0 +1,13 @@
+<h1 class="heading">Explore World</h1>
+<mat-drawer-container class="example-container" autosize>
+  <mat-drawer #drawer class="example-sidenav" mode="side" >
+    <p>{{desc}}</p>
+  </mat-drawer>
+
+  <div class="example-sidenav-content">
+    <button type="button" mat-button (click)="drawer.toggle()">
+<h3 class="subhead">Click Me</h3>
+    </button>
+  </div>
+
+</mat-drawer-container>
